@@ -7,6 +7,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 ul {
@@ -77,6 +78,11 @@ footer {
   color: #FFFFFF;
 }
 
+
+
+/* Telas pequenas (mobile) */
+
+
 @media (max-width: 768px) {
   body {
     margin: 20px;
@@ -127,6 +133,10 @@ footer {
     flex-direction: column;
     margin-top: 40px;
     gap: 30px;
+  }
+
+  main img {
+    margin: 50px;
   }
 }
  
