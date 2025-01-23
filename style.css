@@ -99,6 +99,7 @@ footer {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    margin: 30px;
   }
 
   h1 {
